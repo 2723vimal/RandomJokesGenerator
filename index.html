@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
+  <style>
       * {
         
         margin: 0;
@@ -41,12 +41,14 @@
         color: aliceblue;
     }
     h1{
-        font-size: 8vw;
+        font-size: 5vw;
     }
     p{
-        font-size: 2vw;
+        font-size:1vw;
         padding: 10px;         
         color: wheat;
+        padding: 20px;
+        text-align: justify   ;
         min-height: 30%;
       }
       @media only screen and (max-width: 600px) {
@@ -60,7 +62,9 @@
         }
        
 }
+
 </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="icon" type="image/png" href="pngwing.com (1).png" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -73,9 +77,9 @@
 
             <H1>Random Jokes Generator</H1>
         </div>
-        <div class="two"  id="tw">
+         <div class="two animate__animated animate__backInRight"  id="tw">
         <p id="ans"></p>
-        <button id="btn" class="btnn" style="text-align: center">
+          <button id="btn" class="btnn animate__animated animate__delay-1s animate__rubberBand" style="text-align: center">
           Get Jokes...
         </button>
       </div>
